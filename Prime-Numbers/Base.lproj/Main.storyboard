@@ -30,14 +30,31 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Eg. 17" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nk9-1P-CmJ" userLabel="PrimeInputField">
+                                <rect key="frame" x="120" y="214" width="135" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERW-Bp-yHP">
+                                <rect key="frame" x="120" y="289" width="135" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Is it Prime?"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nk9-1P-CmJ" secondAttribute="trailing" constant="120" id="9jV-O7-qT7"/>
                             <constraint firstAttribute="trailing" secondItem="e0t-h7-Ofc" secondAttribute="trailing" constant="50" id="IUJ-vl-05b"/>
+                            <constraint firstItem="ERW-Bp-yHP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="Tm1-7f-XGr"/>
+                            <constraint firstItem="nk9-1P-CmJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="Yt3-HA-tQC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ERW-Bp-yHP" secondAttribute="trailing" constant="120" id="adI-yD-HAY"/>
+                            <constraint firstItem="ERW-Bp-yHP" firstAttribute="top" secondItem="nk9-1P-CmJ" secondAttribute="bottom" constant="45" id="fPz-WD-Epi"/>
                             <constraint firstItem="Eem-QD-PwG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="i0M-rR-MMK"/>
                             <constraint firstItem="e0t-h7-Ofc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="iMg-SP-nWb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Eem-QD-PwG" secondAttribute="trailing" constant="50" id="mCN-Yc-71G"/>
                             <constraint firstItem="Eem-QD-PwG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="tMM-KQ-SPk"/>
+                            <constraint firstItem="nk9-1P-CmJ" firstAttribute="top" secondItem="e0t-h7-Ofc" secondAttribute="bottom" constant="45" id="vmk-AK-8Ui"/>
                             <constraint firstItem="e0t-h7-Ofc" firstAttribute="top" secondItem="Eem-QD-PwG" secondAttribute="bottom" constant="45" id="ylj-8t-MdH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
