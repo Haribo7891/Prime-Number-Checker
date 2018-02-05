@@ -14,6 +14,7 @@
 		D9246E53202726730053D441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9246E51202726730053D441 /* LaunchScreen.storyboard */; };
 		D9246E5E202726730053D441 /* Prime_NumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9246E5D202726730053D441 /* Prime_NumbersTests.swift */; };
 		D9246E69202726730053D441 /* Prime_NumbersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9246E68202726730053D441 /* Prime_NumbersUITests.swift */; };
+		D9D19AB22028732E005B13B5 /* PrimeNums.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D19AB12028732E005B13B5 /* PrimeNums.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D9246E64202726730053D441 /* Prime-NumbersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prime-NumbersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9246E68202726730053D441 /* Prime_NumbersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_NumbersUITests.swift; sourceTree = "<group>"; };
 		D9246E6A202726730053D441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D19AB12028732E005B13B5 /* PrimeNums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PrimeNums.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D9246E48202726730053D441 /* AppDelegate.swift */,
 				D9246E4A202726730053D441 /* ViewController.swift */,
 				D9246E4C202726730053D441 /* Main.storyboard */,
+				D9D19AB12028732E005B13B5 /* PrimeNums.png */,
 				D9246E4F202726730053D441 /* Assets.xcassets */,
 				D9246E51202726730053D441 /* LaunchScreen.storyboard */,
 				D9246E54202726730053D441 /* Info.plist */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D19AB22028732E005B13B5 /* PrimeNums.png in Resources */,
 				D9246E53202726730053D441 /* LaunchScreen.storyboard in Resources */,
 				D9246E50202726730053D441 /* Assets.xcassets in Resources */,
 				D9246E4E202726730053D441 /* Main.storyboard in Resources */,

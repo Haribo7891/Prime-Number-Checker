@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -56,10 +57,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PrimeNums.png" translatesAutoresizingMaskIntoConstraints="NO" id="PZc-M6-cD0">
+                                <rect key="frame" x="45" y="410" width="285" height="217"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PZc-M6-cD0" secondAttribute="height" multiplier="285:217" id="xb8-fB-fQP"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nk9-1P-CmJ" secondAttribute="trailing" constant="120" id="9jV-O7-qT7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PZc-M6-cD0" secondAttribute="trailing" constant="45" id="CIH-zo-IoR"/>
+                            <constraint firstItem="PZc-M6-cD0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="CKu-44-cRR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ync-Pm-9Sw" secondAttribute="trailing" constant="50" id="FxU-vR-X6c"/>
                             <constraint firstItem="ync-Pm-9Sw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="HQ9-b1-ZFc"/>
                             <constraint firstAttribute="trailing" secondItem="e0t-h7-Ofc" secondAttribute="trailing" constant="50" id="IUJ-vl-05b"/>
@@ -70,6 +79,7 @@
                             <constraint firstItem="Eem-QD-PwG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="i0M-rR-MMK"/>
                             <constraint firstItem="e0t-h7-Ofc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="iMg-SP-nWb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Eem-QD-PwG" secondAttribute="trailing" constant="50" id="mCN-Yc-71G"/>
+                            <constraint firstItem="PZc-M6-cD0" firstAttribute="top" secondItem="ync-Pm-9Sw" secondAttribute="bottom" constant="10" id="p9F-zW-wES"/>
                             <constraint firstItem="ync-Pm-9Sw" firstAttribute="top" secondItem="ERW-Bp-yHP" secondAttribute="bottom" constant="45" id="qvO-lw-f5S"/>
                             <constraint firstItem="Eem-QD-PwG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="tMM-KQ-SPk"/>
                             <constraint firstItem="nk9-1P-CmJ" firstAttribute="top" secondItem="e0t-h7-Ofc" secondAttribute="bottom" constant="45" id="vmk-AK-8Ui"/>
@@ -87,4 +97,7 @@
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="PrimeNums.png" width="167" height="167"/>
+    </resources>
 </document>
